@@ -8,9 +8,10 @@ the imdb_movies_data.js file gets the keyword that the user provided and make a 
 there is also an Output.txt, sample of the output of the code for the "Star Trek" keywords.
 
 ## Prerequisites
-In order to work on the app, some moudels need to be insalled:
+In order to get it to works, some moudels need to be insalled:
 * npm install request, which let us get the html from the web.
 * npm install cheero, which let us parse the html of the website.
 
 ## How to use
-run node imdb_movies_data.js args[...] which args means the name of the movie we want to search for.
+run node .\imdb_movies_data.js args[...] which args means the name of the movie you want to search for.
+for example: node .\imdb_movies_datas.js star trek
